@@ -45,11 +45,11 @@ Good luck and have fun — adapted (with thanks) from [BCYDC](https://bcydc.ca/)
 
 Every day file follows the same structure so you know where to plug in logic:
 
--   `parse_input()` reads `data.txt` and returns a `std::vector<std::string>` with one line per entry.
--   `part1(const std::vector<std::string>&)` consumes the parsed lines and returns the Part 1 answer (`long long`).
--   `part2(const std::vector<std::string>&)` mirrors Part 1 for the second half of the puzzle.
--   `solve(std::ostream&)` orchestrates parsing, invokes both parts, and prints nicely formatted results.
--   `main()` simply calls `solve(std::cout)`; feel free to add command-line parsing if you need alternate inputs.
+-   `parse_input()` reads `data.txt` and returns a `vector<string>` with one line per entry.
+-   `part1(const vector<string>&)` consumes the parsed lines and returns the Part 1 answer (`long long`).
+-   `part2(const vector<string>&)` mirrors Part 1 for the second half of the puzzle.
+-   `solve(ostream&)` orchestrates parsing, invokes both parts, and prints nicely formatted results.
+-   `main()` simply calls `solve(cout)`; feel free to add command-line parsing if you need alternate inputs.
 
 Keep the documentation blocks up to date as you refine each function—this mirrors the expectations for CPSC 1155 submissions.
 
